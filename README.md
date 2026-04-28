@@ -1,86 +1,116 @@
 <div align="center">
 
 <!-- BANNER -->
-<svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0f0f"/>
-      <stop offset="100%" style="stop-color:#1a1a2e"/>
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#12121f"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#e63946"/>
       <stop offset="100%" style="stop-color:#ff6b6b"/>
     </linearGradient>
+    <linearGradient id="accentV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e63946"/>
+      <stop offset="100%" style="stop-color:#c1121f"/>
+    </linearGradient>
   </defs>
-  <rect width="800" height="180" fill="url(#bg)" rx="12"/>
-  <rect x="0" y="0" width="4" height="180" fill="url(#accent)" rx="2"/>
-  <!-- Grid lines -->
-  <line x1="50" y1="0" x2="50" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="150" y1="0" x2="150" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="250" y1="0" x2="250" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="350" y1="0" x2="350" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="450" y1="0" x2="450" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="550" y1="0" x2="550" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="650" y1="0" x2="650" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <line x1="750" y1="0" x2="750" y2="180" stroke="#ffffff08" stroke-width="1"/>
-  <!-- Tag -->
-  <rect x="30" y="28" width="130" height="22" rx="4" fill="#e6394620"/>
-  <text x="95" y="43" font-family="monospace" font-size="11" fill="#e63946" text-anchor="middle">CLAUDE SKILL v2.0</text>
-  <!-- Title -->
-  <text x="30" y="90" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#ffffff">detectAI</text>
-  <text x="195" y="90" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#e63946">·</text>
-  <text x="215" y="90" font-family="Georgia, serif" font-size="36" font-weight="bold" fill="#ffffff">humanizer-ru</text>
-  <!-- Subtitle -->
-  <text x="30" y="120" font-family="monospace" font-size="14" fill="#888888">Убирает ИИ из русских текстов. 40 паттернов.</text>
-  <!-- Stats -->
-  <rect x="30" y="140" width="80" height="24" rx="4" fill="#ffffff10"/>
-  <text x="70" y="156" font-family="monospace" font-size="11" fill="#aaaaaa" text-anchor="middle">40 паттернов</text>
-  <rect x="120" y="140" width="90" height="24" rx="4" fill="#ffffff10"/>
-  <text x="165" y="156" font-family="monospace" font-size="11" fill="#aaaaaa" text-anchor="middle">2 прохода</text>
-  <rect x="220" y="140" width="110" height="24" rx="4" fill="#ffffff10"/>
-  <text x="275" y="156" font-family="monospace" font-size="11" fill="#aaaaaa" text-anchor="middle">калибровка голоса</text>
-  <!-- Right decoration -->
-  <text x="680" y="100" font-family="monospace" font-size="60" fill="#ffffff06">AI</text>
-  <line x1="620" y1="50" x2="760" y2="50" stroke="#e6394615" stroke-width="1"/>
-  <line x1="620" y1="130" x2="760" y2="130" stroke="#e6394615" stroke-width="1"/>
+  <rect width="800" height="200" fill="url(#bg)" rx="14"/>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.8" fill="#ffffff07"/>
+  </pattern>
+  <rect width="800" height="200" fill="url(#dots)" rx="14"/>
+  <rect x="0" y="0" width="5" height="200" fill="url(#accentV)" rx="2"/>
+  <rect x="0" y="0" width="800" height="2" fill="url(#accent)" rx="1" opacity="0.4"/>
+  <rect x="30" y="26" width="148" height="22" rx="11" fill="#e6394618" stroke="#e6394640" stroke-width="1"/>
+  <circle cx="46" cy="37" r="4" fill="#e63946"/>
+  <text x="96" y="42" font-family="'Courier New', monospace" font-size="11" fill="#e63946" text-anchor="middle" letter-spacing="1">CLAUDE SKILL v2.0</text>
+  <text x="30" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#f8f8f8" letter-spacing="-1">detectAI</text>
+  <text x="218" y="98" font-family="Georgia, serif" font-size="42" fill="#e63946" font-weight="bold"> · </text>
+  <text x="248" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#f8f8f8" letter-spacing="-1">humanizer-ru</text>
+  <text x="30" y="128" font-family="'Courier New', monospace" font-size="13" fill="#666666" letter-spacing="0.5">Убирает ИИ из русских текстов. 40 паттернов. Возвращает живой голос.</text>
+  <rect x="30" y="152" width="96" height="26" rx="5" fill="#1a1a2e" stroke="#333355" stroke-width="1"/>
+  <text x="78" y="169" font-family="'Courier New', monospace" font-size="11" fill="#8888bb" text-anchor="middle">40 паттернов</text>
+  <rect x="136" y="152" width="88" height="26" rx="5" fill="#1a1a2e" stroke="#333355" stroke-width="1"/>
+  <text x="180" y="169" font-family="'Courier New', monospace" font-size="11" fill="#8888bb" text-anchor="middle">2 прохода</text>
+  <rect x="234" y="152" width="118" height="26" rx="5" fill="#1a1a2e" stroke="#333355" stroke-width="1"/>
+  <text x="293" y="169" font-family="'Courier New', monospace" font-size="11" fill="#8888bb" text-anchor="middle">калибровка голоса</text>
+  <rect x="362" y="152" width="88" height="26" rx="5" fill="#1a1a2e" stroke="#333355" stroke-width="1"/>
+  <text x="406" y="169" font-family="'Courier New', monospace" font-size="11" fill="#8888bb" text-anchor="middle">MIT лицензия</text>
+  <text x="638" y="118" font-family="Georgia, serif" font-size="72" fill="#ffffff04" font-weight="bold">AI</text>
+  <line x1="600" y1="55" x2="780" y2="55" stroke="#e6394612" stroke-width="1"/>
+  <line x1="600" y1="145" x2="780" y2="145" stroke="#e6394612" stroke-width="1"/>
+  <circle cx="756" cy="100" r="28" fill="none" stroke="#e6394610" stroke-width="1"/>
+  <circle cx="756" cy="100" r="18" fill="none" stroke="#e6394418" stroke-width="1"/>
 </svg>
 
 <br/>
 
 [![Telegram](https://img.shields.io/badge/Telegram-Digital--трафик-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/trafficisobar)
 [![Website](https://img.shields.io/badge/Сайт-pawetta.com-black?style=flat-square&logo=safari&logoColor=white)](https://pawetta.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/version-2.0.0-e63946?style=flat-square)]()
+[![Language](https://img.shields.io/badge/язык-русский-blue?style=flat-square)]()
 
 </div>
 
+<br/>
+
+> **Claude skill**, который убирает признаки ИИ-генерации из русскоязычных текстов и возвращает живой голос автора. Без воды, без «важно отметить», без «данного подхода». Написан на основе реальных наблюдений за тем, как русскоязычные LLM портят тексты.
+
+<br/>
+
 ---
 
-## Что это
+## Содержание
 
-Claude skill, который убирает признаки ИИ-генерации из русскоязычных текстов и возвращает живой голос автора. Без воды, без «важно отметить», без «данного подхода».
-
-Написан на основе реальных наблюдений за тем, как русскоязычные LLM портят тексты.
+- [Как работает](#как-работает)
+- [Пример](#пример)
+- [Что убирает](#что-убирает)
+- [Установка](#установка)
+- [Вызов](#вызов)
+- [FAQ](#faq)
+- [Changelog](#changelog)
+- [Автор](#автор)
 
 ---
 
 ## Как работает
 
 ```
-Входной текст (ИИ-слог)
-        ↓
-  Проход 1: 40 паттернов
-  — канцелярит
-  — пустые эпитеты
-  — слова-паразиты
-  — артефакты чат-бота
-  — ритм и голос
-        ↓
-  Проход 2: антиИИ-аудит
-  — чеклист из 7 пунктов
-  — калибровка под голос автора
-        ↓
-Живой текст
+┌─────────────────────────────────────────────────┐
+│           Входной текст (ИИ-слог)               │
+└────────────────────┬────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────┐
+│              ПРОХОД 1 · 40 паттернов            │
+│                                                 │
+│  ✦ Канцелярит и мёртвые глаголы                │
+│  ✦ Пустые эпитеты и раздутая значимость        │
+│  ✦ Переходы-паразиты                           │
+│  ✦ Структурные ИИ-паттерны                     │
+│  ✦ Артефакты чат-бота                          │
+│  ✦ Ритм и голос                                │
+└────────────────────┬────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────┐
+│           ПРОХОД 2 · Антиии-аудит               │
+│                                                 │
+│  ✦ Чеклист из 7 пунктов                        │
+│  ✦ Калибровка под голос автора                 │
+│  ✦ Проверка позиции и конкретики               │
+└────────────────────┬────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────┐
+│                 Живой текст                     │
+└─────────────────────────────────────────────────┘
 ```
+
+Если пользователь даёт **образец своего письма** — скилл запоминает его ритм, любимые слова, тон и воспроизводит именно этот голос, а не нейтральный.
 
 ---
 
@@ -96,39 +126,138 @@ Claude skill, который убирает признаки ИИ-генерац
 
 ---
 
+**До — ИИ:**
+
+> Компания является лидером рынка в сфере финтех-решений. Более того, она осуществляет разработку передовых продуктов, которые позволяют клиентам достигать значимых результатов. В целом, перспективы выглядят многообещающе.
+
+**После — человек:**
+
+> Компания держит примерно 30% рынка — это реальное лидерство, не маркетинговое. Продукты рабочие: видел кейс, где клиент сократил операционные расходы вдвое. Насчёт перспектив — посмотрим, конкуренты не спят.
+
+---
+
 ## Что убирает
 
 | Блок | Паттерны |
 |------|----------|
-| **Канцелярит** | «данный», «является», «осуществляет», «в рамках», «обеспечивает», «реализация» |
-| **Пустые слова** | «инновационный», «комплексный», «синергия», «релевантный», «проактивный» |
-| **Заявки на важность** | «важно отметить», «следует подчеркнуть», «нельзя недооценивать» |
-| **Переходы-паразиты** | «таким образом», «в целом», «более того», «стоит отметить» |
-| **Артефакты бота** | «отличный вопрос», «рад помочь», «надеюсь, это было полезно» |
-| **Ритм и голос** | одинаковые предложения, отсутствие позиции, симметрия, повтор-резюме |
+| **Канцелярит** | «данный», «является», «осуществляет», «в рамках», «обеспечивает», «реализация», «способствует» |
+| **Пустые слова** | «инновационный», «комплексный», «синергия», «релевантный», «проактивный», «холистический» |
+| **Заявки на важность** | «важно отметить», «следует подчеркнуть», «нельзя недооценивать», «трудно переоценить» |
+| **Переходы-паразиты** | «таким образом», «в целом», «более того», «стоит отметить», «в связи с этим» |
+| **Структура** | правило трёх, списки вместо прозы, «не только... но и...», повтор-резюме |
+| **Артефакты бота** | «отличный вопрос», «рад помочь», «надеюсь, было полезно», «дайте знать» |
+| **Ритм** | одинаковые предложения, отсутствие позиции, избыточная симметрия |
 
 ---
 
 ## Установка
 
+### Вариант 1 — скачать файл напрямую
+
 1. Скачай [`digitaltraffic-detectai.skill`](https://github.com/YAMAKAYAMACO/digitaltraffic-detectai/raw/main/digitaltraffic-detectai.skill)
 2. В Claude.ai: **Settings → Skills → Install from file**
 3. Готово
 
-**Вызов:** `/digitaltraffic-detectai` или просто напиши «очеловечь текст» — скилл включится автоматически.
+### Вариант 2 — через терминал
+
+```bash
+curl -L https://github.com/YAMAKAYAMACO/digitaltraffic-detectai/raw/main/digitaltraffic-detectai.skill \
+  -o digitaltraffic-detectai.skill
+```
+
+Затем установи скачанный файл через **Settings → Skills → Install from file**.
+
+---
+
+## Вызов
+
+После установки скилл включается тремя способами:
+
+```
+/digitaltraffic-detectai    ← явная команда
+
+очеловечь текст             ← скилл включится автоматически
+убери ИИ                    ← и так тоже
+сделай живее                ← и так
+```
+
+**С образцом голоса:**
+```
+Вот мой стиль письма: [образец]
+Теперь очеловечь этот текст: [текст]
+```
+
+---
+
+## FAQ
+
+**Чем отличается от простого промпта «перепиши по-человечески»?**
+
+Обычный промпт убирает самые заметные клише, но оставляет десятки скрытых паттернов — одинаковый ритм предложений, пассивный залог, отсутствие позиции. Скилл работает по 40 конкретным правилам с двойным проходом и аудитом.
+
+**Работает только с русским?**
+
+Да. Паттерны заточены под особенности русскоязычных LLM: канцелярит советского типа, характерные переходы, типичные конструкции. Для английского логика другая.
+
+**Меняет ли скилл смысл текста?**
+
+Нет. Задача — убрать шаблонность, не переписать содержание. Факты, структура и аргументы остаются.
+
+**Подходит для любого жанра?**
+
+Статьи, посты, письма, описания продуктов, коммерческие предложения — да. Для академических текстов часть канцелярита может быть уместна — учитывай контекст.
+
+**Гарантирует ли прохождение детекторов ИИ?**
+
+Детекторы — вероятностные инструменты. Скилл делает текст живее и человечнее, что снижает вероятность обнаружения, но цель — качество текста, а не обход детектора.
+
+---
+
+## Changelog
+
+### v2.0.0 — апрель 2025
+- 40 паттернов вместо 32 (+8 новых: «обеспечивать», «способствовать», «реализация», симметрия, повтор-резюме и др.)
+- Паттерны сгруппированы в 8 тематических блоков
+- Финальный аудит превращён в чеклист из 7 пунктов
+- Усилен description для более точного автотриггера
+- Добавлен третий пример «до/после»
+
+### v1.0.0 — март 2025
+- Первый релиз
+- 32 паттерна ИИ-слога на русском
+- Калибровка голоса по образцу автора
+- Двойной проход: правка + аудит
 
 ---
 
 ## Автор
 
-**Никита Вихров** — маркетолог и SEO-специалист, 10+ лет в digital.
+<table>
+<tr>
+<td width="80">
 
-Специализация: SEO, перфоманс-маркетинг, трафик, который продаёт.  
-Автор Telegram-канала [Digital-трафик](https://t.me/trafficisobar) — 24 000+ подписчиков.  
-Кейсы, инструменты и калькуляторы: [pawetta.com](https://pawetta.com)
+[![Никита Вихров](https://avatars.githubusercontent.com/YAMAKAYAMACO?size=64)](https://pawetta.com)
+
+</td>
+<td>
+
+**Никита Вихров** — маркетолог и SEO-специалист, 10+ лет в digital.<br/>
+Специализация: SEO, перфоманс-маркетинг, трафик который продаёт.<br/>
+Автор Telegram-канала <a href="https://t.me/trafficisobar"><strong>Digital-трафик</strong></a> — 24 000+ подписчиков.<br/>
+Кейсы, инструменты, калькуляторы: <a href="https://pawetta.com"><strong>pawetta.com</strong></a>
+
+</td>
+</tr>
+</table>
 
 ---
 
 <div align="center">
-<sub>Сделано с раздражением к канцелярному слогу © 2025</sub>
+
+Если скилл полезен — поставь ⭐ и поделись с теми, кто работает с ИИ-текстами
+
+<br/>
+
+<sub>Сделано с раздражением к канцелярному слогу · © 2025 Никита Вихров · MIT License</sub>
+
 </div>
