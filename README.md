@@ -261,3 +261,10 @@ curl -L https://github.com/YAMAKAYAMACO/digitaltraffic-detectai/raw/main/digital
 <sub>Сделано с раздражением к канцелярному слогу · © 2025 Никита Вихров · MIT License</sub>
 
 </div>
+
+
+---
+
+## См. также
+
+- [hh-autoresponder — бот автооткликов на вакансии hh.ru](https://github.com/YAMAKAYAMACO/hh-autoresponder) — бесплатный open-source Telegram-бот, который сам ищет вакансии на hh.ru и откликается за тебя.
